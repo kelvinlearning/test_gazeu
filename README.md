@@ -5,9 +5,9 @@ Teste automatizado no site (https://www.jogatina.com.br/) utilizando o Robot Fra
 
 ### Instalação
 
-Instale o Robot usando as etapas abaixo.
+Instale o Python+Robot usando as etapas abaixo.
 
-1. Instalar o Python 3
+1. Instalar ultima versão Python
 ```
 https://www.python.org/downloads/
 ```
@@ -22,7 +22,7 @@ pip3 install robotframework
 pip3 install --upgrade robotframework-seleniumlibrary
 ```
 
-3. Instalar o driver do Google Chrome e adicionar nas variáveis do sistema.
+3. Instalar o driver do Google Chrome (Escolher mesma versão do navegador) e adicionar nas variáveis do sistema.
 ```
 https://chromedriver.chromium.org/downloads
 ```
