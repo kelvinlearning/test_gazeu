@@ -44,4 +44,8 @@ robot -d output automation/tests/JogatinaBDDs.tests.robot
 |                 `tests` | Arquivo **JogatinaBDDS.tests.robot** contém todos os casos de teste.   |
 |                 `pages` | Arquivo **HomeJogatina.pages.robot** contém todos Keywords utilizados (Page Object Pattern).|
 |         `pages/commons` | **hooks.pages.commons.robot** contém os setups para inicio e fim utilizados no teste.             |
+
+
+### Execuções dos testes
+
 ![image](https://user-images.githubusercontent.com/109600851/203045134-2f535119-b0c9-4f3b-889f-6a72689915ef.png)
