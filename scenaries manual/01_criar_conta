@@ -1,0 +1,24 @@
+[CDT01] Criar conta com o campo email e senha válidas
+[CDT02] Criar conta com o campo email já cadastrado
+[CDT03] Criar conta com o campo senha vazio
+[CDT04] Criar conta com o campo email vazio
+
+[CDT01]
+Dado que acesse a home page do jogatina truco
+Quando inserir email e senha validos
+E clicar em criar conta
+Então deverá ser redirecionado a home 
+
+[CDT02]
+Dado que acesse a home page do jogatina truco
+Quando inserir email já cadastrado
+E clicar em criar conta
+Então deverá ser exibido uma mensagem "Email já cadastrado"
+
+[CDT03/04]
+Dado que acesse a home page do jogatina truco
+Quando não inserir email ou senha
+E clicar em criar conta
+Então deverá ser exibido uma sinalização de "campo obrigátorio".
+
+

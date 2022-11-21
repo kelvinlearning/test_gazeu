@@ -1,0 +1,35 @@
+[CDT01] Logar com o campo email e senha válidas
+[CDT02] Logar com o campo email e senha inválido
+[CDT03] Logar com o campo email e senha vazios
+[CDT04] Fazer login com o Google
+
+[CDT01]
+Dado que acesse a home page do jogatina truco
+E clique em entrar
+Então deverá inserir email e senha validos
+E clicar em entrar
+Então deverá ser redirecionado a welcome page.
+
+[CDT02]
+Dado que acesse a home page do jogatina truco
+E clicar em entrar
+Então deverá inserir email e senha inválido
+E clicar em entrar
+Então deverá ser redirecionado a page de login
+E ser exibido a mensagem "Email ou senha incorretos. Por favor, tente novamente."
+
+[CDT03]
+Dado que acesse a home page do jogatina truco
+E clicar em entrar
+Então deverá deixar o campo email e senha vazio
+E clicar em entrar
+Então será exibido a mensagem "Este campo é requerido."
+
+[CDT04]
+Dado que acesse a home page do jogatinatruco
+E escolha o metódo fazer login com Google
+Então será aberto uma nova page para escolher uma conta Google
+E deverá ser confirmado a conta escolhida com o jogatina
+Então será redirecionado para a page do usuario.
+
+
